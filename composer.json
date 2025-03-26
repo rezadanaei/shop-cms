@@ -1,0 +1,25 @@
+{
+    "name": "danaei/shop-cms",
+    "description": "A complete Shop CMS solution.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Danaei\\ShopCMS\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Danaei\\ShopCMS\\ShopCMSServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    
+    "require": {
+        "php": "^7.3|^8.0",
+        "illuminate/support": "^11.0|^12.0"
+    }
+}
