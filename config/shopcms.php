@@ -1,6 +1,7 @@
 <?php
 
 return [
-    'title' => 'Danaei Shop CMS',
-    'description' => 'A complete Shop CMS solution.',
+    'middlewares' => [
+        'meta_tags' => \Danaei\ShopCMS\Middleware\MetaTagsMiddleware::class,
+    ],
 ];

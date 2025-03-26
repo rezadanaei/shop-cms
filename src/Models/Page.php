@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Models;
+namespace Danaei\ShopCMS\Models;
 
 use Illuminate\Database\Eloquent\Model;
 

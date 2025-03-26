@@ -20,6 +20,6 @@
     
     "require": {
         "php": "^7.3|^8.0",
-        "illuminate/support": "^11.0|^12.0"
+        "illuminate/support": "^09.0|^10.0"
     }
 }

@@ -1,10 +1,11 @@
 <?php
 
-namespace App\Http\Middleware;
+namespace Danaei\ShopCMS\Http\Middleware;
 
 use Closure;
 use Illuminate\Http\Request;
-use Symfony\Component\HttpFoundation\Response;
+use Danaei\ShopCMS\Models\Page;
+use \Symfony\Component\HttpFoundation\Response;
 
 class MetaTagsMiddleware
 {
